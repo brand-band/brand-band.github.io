@@ -17,7 +17,7 @@
 	background: #DE8500;
 }
 
-.button:hover {
+a:hover {
 	cursor: pointer;
 }
 
@@ -137,4 +137,69 @@
 #intro2 .button {
 	left: 379px;
 	top: 473px;
+}
+
+#pick-color .text1 {
+	position: absolute;
+	width: 912px;
+	height: 85px;
+	left: 85px;
+	top: 47px;
+
+	font-family: Playfair Display;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 35px;
+	line-height: 47px;
+	display: flex;
+	align-items: center;
+
+	color: #000000;
+}
+
+#pick-color .option1 {
+	position: absolute;
+	width: 114.1px;
+	height: 114.1px;
+	left: 93px;
+	top: 180px;
+
+	background: #4BC5E0;
+}
+
+#pick-color .option2 {
+	position: absolute;
+	width: 114.1px;
+	height: 114.1px;
+	left: 93px;
+	top: 354.95px;
+
+	background: #F394C2;
+}
+
+#pick-color .option3 {
+	position: absolute;
+	width: 114.1px;
+	height: 114.1px;
+	left: 93px;
+	top: 547.93px;
+
+	background: #F1CD0D;
+}
+
+#pick-color .preview {
+	position: absolute;
+	width: 850px;
+	height: 550px;
+	left: 506px;
+	top: 166px;
+
+	background: white;
+	border: 1px solid #000000;
+	box-sizing: border-box;
+}
+
+#pick-color .button {
+	left: 964px;
+	top: 749px;
 }

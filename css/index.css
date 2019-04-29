@@ -1,20 +1,47 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat:400,700');
-@import url('https://fonts.googleapis.com/css?family=Playfair+Display');
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display:400,700');
 
 .container {
 	position: relative;
-	width: 1440px;
-	height: 901.45px;
+	width: 1150px;
+	height: 600px;
+	margin: auto;
 
 	background: #FFFFFF;
 }
 
-.foo {
+.button {
+	position: absolute;
+	width: 392px;
+	height: 103px;
+	background: #DE8500;
+}
+
+.button:hover {
+	cursor: pointer;
+}
+
+.button-text {
+	position: relative;
+	top: 25%;
+
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 35px;
+	line-height: 43px;
+	text-align: center;
+	vertical-align: middle;
+
+	color: #FFFFFF;
+}
+
+#title .title {
 	position: absolute;
 	width: 913px;
 	height: 118px;
-	left: 264px;
-	top: 268px;
+	left: 118px;
+	top: 182px;
 
 	font-family: Montserrat;
 	font-style: normal;
@@ -28,12 +55,12 @@
 	color: #000000;
 }
 
-.bar {
+#title .subtitle {
 	position: absolute;
 	width: 844px;
 	height: 53px;
-	left: 298px;
-	top: 412px;
+	left: 153px;
+	top: 300px;
 
 	font-family: Playfair Display;
 	font-style: normal;
@@ -45,4 +72,69 @@
 	text-align: center;
 
 	color: #C4C4C4;
+}
+
+#title .button {
+	left: 379px;
+	top: 416px;
+}
+
+#intro1 .text1 {
+	position: absolute;
+	width: 945px;
+	height: 331px;
+	left: 102px;
+	top: 72px;
+
+	font-family: Playfair Display;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 40px;
+	line-height: 53px;
+	text-align: center;
+
+	color: #000000;
+}
+
+#intro1 .button {
+	left: 379px;
+	top: 436px;
+}
+
+#intro2 .text1 {
+	position: absolute;
+	width: 945px;
+	height: 331px;
+	left: 102px;
+	top: 12px;
+
+	font-family: Playfair Display;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 40px;
+	line-height: 53px;
+	text-align: center;
+
+	color: #000000;
+}
+
+#intro2 .text2 {
+	position: absolute;
+	width: 494px;
+	height: 182px;
+	left: 328px;
+	top: 300px;
+
+	font-family: Playfair Display;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 40px;
+	line-height: 53px;
+
+	color: #000000;
+}
+
+#intro2 .button {
+	left: 379px;
+	top: 473px;
 }

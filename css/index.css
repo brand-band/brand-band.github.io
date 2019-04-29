@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700');
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display');
+
+.container {
+	position: relative;
+	width: 1440px;
+	height: 901.45px;
+
+	background: #FFFFFF;
+}
+
+.foo {
+	position: absolute;
+	width: 913px;
+	height: 118px;
+	left: 264px;
+	top: 268px;
+
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 96px;
+	line-height: 117px;
+	display: flex;
+	align-items: center;
+	text-align: center;
+
+	color: #000000;
+}
+
+.bar {
+	position: absolute;
+	width: 844px;
+	height: 53px;
+	left: 298px;
+	top: 412px;
+
+	font-family: Playfair Display;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 35px;
+	line-height: 47px;
+	display: flex;
+	align-items: center;
+	text-align: center;
+
+	color: #C4C4C4;
+}

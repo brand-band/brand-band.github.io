@@ -17,6 +17,17 @@
 	background: #DE8500;
 }
 
+a.button-invert {
+	background: #FFFFFF;
+	border: 1px solid #C4C4C4;
+	box-sizing: border-box;
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+a.button-invert .button-text {
+	color: #DE8500;
+}
+
 a:hover {
 	cursor: pointer;
 }
@@ -220,8 +231,9 @@ a:hover {
 	left: 125px;
 	top: 82px;
 
-	background-image: url('../images/cs247-p1-taylor.png');
+	background: url(../images/cs247-p1-taylor.png);
 	background-size: contain;
+	background-repeat: no-repeat;
 	border: 1px solid #000000;
 	box-sizing: border-box;
 }
@@ -233,8 +245,9 @@ a:hover {
 	left: 125px;
 	top: 206.49px;
 
-	background-image: url('../images/cs247-p1-terry.png');
+	background-image: url(../images/cs247-p1-terry.png);
 	background-size: contain;
+	background-repeat: no-repeat;
 	border: 1px solid #000000;
 	box-sizing: border-box;
 }
@@ -246,8 +259,9 @@ a:hover {
 	left: 125px;
 	top: 343.81px;
 
-	background-image: url('../images/cs247-p1-khaled.png');
+	background-image: url(../images/cs247-p1-khaled.png);
 	background-size: contain;
+	background-repeat: no-repeat;
 	border: 1px solid #000000;
 	box-sizing: border-box;
 }
@@ -255,4 +269,128 @@ a:hover {
 #pick-celeb .button {
 	left: 795px;
 	top: 485px;
+}
+
+#pick-slogan .text1 {
+	position: absolute;
+	width: 939px;
+	height: 41px;
+	left: 79px;
+	top: 24px;
+
+	font-family: Playfair Display;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 30px;
+	line-height: 40px;
+
+	color: #000000;
+}
+
+#pick-slogan .option1 {
+	position: absolute;
+	width: 244px;
+	height: 81.19px;
+	left: 116px;
+	top: 98px;
+
+	background-image: url(../images/cs247-p1-unleash.png);
+	background-size: contain;
+	background-repeat: no-repeat;
+	border: 1px solid #000000;
+	box-sizing: border-box;
+}
+
+#pick-slogan .option2 {
+	position: absolute;
+	width: 244px;
+	height: 81.19px;
+	left: 116px;
+	top: 222.49px;
+
+	background-image: url(../images/cs247-p1-hearwhatyouwanttohear.png);
+	background-size: contain;
+	background-repeat: no-repeat;
+	border: 1px solid #000000;
+	box-sizing: border-box;
+}
+
+#pick-slogan .option3 {
+	position: absolute;
+	width: 244px;
+	height: 81.19px;
+	left: 116px;
+	top: 359.81px;
+
+	background-image: url(../images/cs247-p1-perfectduet.png);
+	background-size: contain;
+	background-repeat: no-repeat;
+	border: 1px solid #000000;
+	box-sizing: border-box;
+}
+
+#pick-slogan .button {
+	left: 795px;
+	top: 485px;
+}
+
+#released .text1 {
+	position: absolute;
+	width: 945px;
+	height: 130px;
+	left: 102px;
+	top: 179px;
+
+	font-family: Playfair Display;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 30px;
+	line-height: 40px;
+	text-align: center;
+
+	color: #000000;
+}
+
+#released .button {
+	left: 450px;
+	top: 341px;
+}
+
+#result .text1 {
+	position: absolute;
+	width: 945px;
+	height: 130px;
+	left: 102px;
+	top: 168px;
+
+	font-family: Playfair Display;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 30px;
+	line-height: 40px;
+	text-align: center;
+
+	color: #000000;
+}
+
+#result .image1 {
+	position: absolute;
+	width: 330px;
+	height: 173px;
+	left: 820px;
+	top: 0px;
+
+	background-image: url(../images/cs247-p1-money.png);
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+
+#result .button1 {
+	left: 313px;
+	top: 352px;
+}
+
+#result .button2 {
+	left: 593px;
+	top: 352px;
 }

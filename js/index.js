@@ -12,6 +12,13 @@ $(function() {
 		children[index].show();
 	}
 
+	function reset() {
+		index = 0;
+		selected = false;
+		selection1 = selection2 = selection3 = '';
+		$('.preview').css('background-image', 'url()');
+	}
+
 	function comboFilenameGenerator() {
 		if (selection1 == '') {
 			return '';
@@ -51,6 +58,13 @@ $(function() {
 		}
 	});
 
+	$('#result .goto' ).click(function(e) {
+		children[index].hide();
+		reset();
+		index++;
+		children[index].show();
+	});
+
 	$('.option').click(function(e) {
 		var screen = $(this).parent().parent().attr('id').trim();
 		var option = $(this).attr('class').split(' ')[1].trim();
@@ -61,6 +75,8 @@ $(function() {
 					selection1 = 'b';
 				} else if (screen == 'pick-celeb') {
 					selection2 = 'ts';
+				} else if (screen == 'pick-slogan') {
+					selection3 = 'u';
 				}
 				break;
 			case 'option2':
@@ -68,6 +84,8 @@ $(function() {
 					selection1 = 'p';
 				} else if (screen == 'pick-celeb') {
 					selection2 = 'tc';
+				} else if (screen == 'pick-slogan') {
+					selection3 = 'h';
 				}
 				break;
 			case 'option3':
@@ -75,6 +93,8 @@ $(function() {
 					selection1 = 'y';
 				} else if (screen == 'pick-celeb') {
 					selection2 = 'dj';
+				} else if (screen == 'pick-slogan') {
+					selection3 = 't';
 				}
 				break;
 		}

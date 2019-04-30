@@ -65,6 +65,12 @@ $(function() {
 		children[index].show();
 	});
 
+	$('#credits2 .reset').click(function(e) {
+		children[index].hide();
+		reset();
+		children[index].show();
+	});
+
 	$('.option').click(function(e) {
 		var screen = $(this).parent().parent().attr('id').trim();
 		var option = $(this).attr('class').split(' ')[1].trim();

@@ -173,6 +173,57 @@ a:hover {
 	color: #000000;
 }
 
+#pick-color .label1 {
+	position: absolute;
+	width: 93px;
+	height: 33px;
+	left: 119px;
+	top: 168px;
+
+	font-family: Playfair Display;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 25px;
+	line-height: 33px;
+	text-align: center;
+
+	color: #000000;
+}
+
+#pick-color .label2 {
+	position: absolute;
+	width: 85px;
+	height: 33px;
+	left: 121px;
+	top: 299px;
+
+	font-family: Playfair Display;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 25px;
+	line-height: 33px;
+	text-align: center;
+
+	color: #000000;
+}
+
+#pick-color .label3 {
+	position: absolute;
+	width: 142px;
+	height: 33px;
+	left: 95px;
+	top: 430px;
+
+	font-family: Playfair Display;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 25px;
+	line-height: 33px;
+	text-align: center;
+
+	color: #000000;
+}
+
 #pick-color .option1 {
 	position: absolute;
 	width: 81.19px;
@@ -220,6 +271,57 @@ a:hover {
 	font-weight: normal;
 	font-size: 30px;
 	line-height: 40px;
+
+	color: #000000;
+}
+
+#pick-celeb .label1 {
+	position: absolute;
+	width: 166px;
+	height: 33px;
+	left: 79px;
+	top: 162px;
+
+	font-family: Playfair Display;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 25px;
+	line-height: 33px;
+	text-align: center;
+
+	color: #000000;
+}
+
+#pick-celeb .label2 {
+	position: absolute;
+	width: 164px;
+	height: 33px;
+	left: 79px;
+	top: 293px;
+
+	font-family: Playfair Display;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 25px;
+	line-height: 33px;
+	text-align: center;
+
+	color: #000000;
+}
+
+#pick-celeb .label3 {
+	position: absolute;
+	width: 142px;
+	height: 33px;
+	left: 95px;
+	top: 425px;
+
+	font-family: Playfair Display;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 25px;
+	line-height: 33px;
+	text-align: center;
 
 	color: #000000;
 }
@@ -296,6 +398,7 @@ a:hover {
 
 	background-image: url(../images/cs247-p1-unleash.png);
 	background-size: contain;
+	background-position: center;
 	background-repeat: no-repeat;
 	border: 1px solid #000000;
 	box-sizing: border-box;
@@ -310,6 +413,7 @@ a:hover {
 
 	background-image: url(../images/cs247-p1-hearwhatyouwanttohear.png);
 	background-size: contain;
+	background-position: center;
 	background-repeat: no-repeat;
 	border: 1px solid #000000;
 	box-sizing: border-box;
@@ -324,6 +428,7 @@ a:hover {
 
 	background-image: url(../images/cs247-p1-perfectduet.png);
 	background-size: contain;
+	background-position: center;
 	background-repeat: no-repeat;
 	border: 1px solid #000000;
 	box-sizing: border-box;
@@ -393,4 +498,208 @@ a:hover {
 #result .button2 {
 	left: 593px;
 	top: 352px;
+}
+
+#wrapup1 .text1 {
+	position: absolute;
+	width: 945px;
+	height: 255px;
+	left: 102px;
+	top: 123px;
+
+	font-family: Playfair Display;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 30px;
+	line-height: 40px;
+	text-align: center;
+
+	color: #000000;
+}
+
+#wrapup1 .button {
+	left: 450px;
+	top: 396px;
+}
+
+#wrapup3 .text1 {
+	position: absolute;
+	width: 945px;
+	height: 125px;
+	left: 102px;
+	top: 188px;
+
+	font-family: Playfair Display;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 30px;
+	line-height: 40px;
+	text-align: center;
+
+	color: #000000;
+}
+
+#wrapup3 .button {
+	left: 450px;
+	top: 331px;
+}
+
+#wrapup4 .text1 {
+	position: absolute;
+	width: 945px;
+	height: 125px;
+	left: 102px;
+	top: 188px;
+
+	font-family: Playfair Display;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 30px;
+	line-height: 40px;
+	text-align: center;
+
+	color: #000000;
+}
+
+#wrapup4 .button {
+	left: 450px;
+	top: 331px;
+}
+
+#credits1 .text1 {
+	position: absolute;
+	width: 945px;
+	height: 34px;
+	left: 102px;
+	top: 130px;
+
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 20px;
+	line-height: 24px;
+
+	color: #C4C4C4;
+}
+
+#credits1 .text2 {
+	position: absolute;
+	width: 945px;
+	height: 306px;
+	left: 102px;
+	top: 164px;
+
+	font-family: Playfair Display;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 30px;
+	line-height: 40px;
+
+	color: #000000;
+}
+
+#credits1 .button {
+	left: 450px;
+	top: 380px;
+}
+
+#credits2 .text1 {
+	position: absolute;
+	width: 248px;
+	height: 25px;
+	left: 222px;
+	top: 89px;
+
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 20px;
+	line-height: 24px;/* identical to box height */
+
+	color: #C4C4C4;
+}
+
+#credits2 .text2 {
+	position: absolute;
+	width: 945px;
+	height: 69px;
+	left: 222px;
+	top: 123px;
+
+	font-family: Playfair Display;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 30px;
+	line-height: 40px;
+
+	color: #000000;
+}
+
+#credits2 .text3 {
+	position: absolute;
+	width: 945px;
+	height: 34px;
+	left: 222px;
+	top: 218px;
+
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 20px;
+	line-height: 24px;
+
+	color: #C4C4C4;
+}
+
+#credits2 .text4 {
+	position: absolute;
+	width: 945px;
+	height: 69px;
+	left: 222px;
+	top: 252px;
+
+	font-family: Playfair Display;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 30px;
+	line-height: 40px;
+
+	color: #000000;
+}
+
+#credits2 .text5 {
+	position: absolute;
+	width: 945px;
+	height: 34px;
+	left: 222px;
+	top: 347px;
+
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 20px;
+	line-height: 24px;
+
+	color: #C4C4C4;
+}
+
+#credits2 .text6 {
+	position: absolute;
+	width: 945px;
+	height: 69px;
+	left: 222px;
+	top: 381px;
+
+	font-family: Playfair Display;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 30px;
+	line-height: 40px;
+
+	color: #000000;
+}
+
+#credits2 .button {
+	left: 467px;
+	top: 431px;
 }

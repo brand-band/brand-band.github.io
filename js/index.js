@@ -23,8 +23,8 @@ $(function() {
 		$('.preview').css('background-image', 'url()');
 	}
 
-	function populateReactions() {
-		var reactionObject = reactions[selection1][selection2][selection3];
+	function populateReactionsResults() {
+		var reactionObject = reactions__[selection1][selection2][selection3];
 		$('#reaction1 .likedislike').css('background-image', reactionObject['sally'][0] ? 'url(images/cs247-p1-smile.png)' : 'url(images/cs247-p1-frown.png)');
 		$('#reaction2 .likedislike').css('background-image', reactionObject['travis'][0] ? 'url(images/cs247-p1-smile.png)' : 'url(images/cs247-p1-frown.png)');
 		$('#reaction3 .likedislike').css('background-image', reactionObject['sam'][0] ? 'url(images/cs247-p1-smile.png)' : 'url(images/cs247-p1-frown.png)');
@@ -33,6 +33,14 @@ $(function() {
 		$('#reaction2 .opinion').text(reactionObject['travis'][1]);
 		$('#reaction3 .opinion').text(reactionObject['sam'][1]);
 		$('#reaction4 .opinion').text(reactionObject['casey'][1]);
+
+		if (selection2 in results__) {
+			$('#result .text1').text(results__[selection2]);
+		} else if (selection1 in results__) {
+			$('#result .text1').text(results__[selection1]);
+		} else {
+			$('#result .text1').text(results__['default']);
+		}
 	}
 
 	function comboFilenameGenerator() {
@@ -61,8 +69,14 @@ $(function() {
 		}
 	});
 
+	// Reminder tooltip.
+	tippy('.reminder', {
+		content: '<span style="	font-family: Playfair Display; text-align: center;">-is an engineering student<br>-participates in Greek life<br>-wants to found a startup</span>',
+		placement: 'right'
+	})
+
 	/*
-		Button registrations
+		Button registrations.
 	*/
 	$('.button.simple-next').click(function(e) {
 		turnPage();
@@ -79,13 +93,13 @@ $(function() {
 	});
 
 	$('#released .button').click(function(e) {
-		populateReactions();
+		populateReactionsResults();
 	});
 
-	$('#result .goto' ).click(function(e) {
+	$('#result .goto').click(function(e) {
 		children[index].hide();
 		reset();
-		index++;
+		index += 2;
 		children[index].show();
 	});
 

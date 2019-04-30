@@ -1,4 +1,12 @@
-var reactions = {
+var results__ = {
+	'dj': 'Even though some people ended up buying the headphones, your sales were a flop and dropped 20% from last quarter, especially after your spokesperson stirred up controversy on Twitter again just days after you released the ad...and you just got called for a private meeting with your boss. Uh oh. Try again?',
+	'ts': 'There was a huge backlash on the use of only skinny, white women in your ad, making it to the front page of the New York Times. Many activists are boycotting the brand, the Twitter hashtag #NotMyBody is trending, and sales are plummeting. It’s bad. Try again?',
+	'p': 'Your sales did pretty well with your target audience, but a lot of men and non-femme identifying individuals found your product to be too feminine and didn’t end up buying. Your sales were down a bit from last quarter. Try again?',
+	'b': 'Your sales did pretty well with your target audience, but a lot of non-male identifying individuals found your product to be too masculine and didn’t end up buying. Your sales were down a bit from last quarter. Try again?',
+	'default': 'Your sales did pretty well with your target audience, though it wasn’t the growth you were expecting. Want to try again to try to improve your numbers?'
+}
+
+var reactions__ = {
 	'b': {
 		'ts': {
 			'u': {

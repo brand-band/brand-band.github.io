@@ -5,10 +5,14 @@ $(function() {
 	var selected = false; // Whether a selection has been made in the current page.
 	var selection1 = selection2 = selection3 = ''; // '' means no selection
 
-	function advancePage() {
+	function turnPage(forward = true) {
 		selected = false;
 		children[index].hide();
-		index++;
+		if (forward) {
+			index++;
+		} else {
+			index--;			
+		}
 		children[index].show();
 	}
 
@@ -17,6 +21,18 @@ $(function() {
 		selected = false;
 		selection1 = selection2 = selection3 = '';
 		$('.preview').css('background-image', 'url()');
+	}
+
+	function populateReactions() {
+		var reactionObject = reactions[selection1][selection2][selection3];
+		$('#reaction1 .likedislike').css('background-image', reactionObject['sally'][0] ? 'url(images/cs247-p1-smile.png)' : 'url(images/cs247-p1-frown.png)');
+		$('#reaction2 .likedislike').css('background-image', reactionObject['travis'][0] ? 'url(images/cs247-p1-smile.png)' : 'url(images/cs247-p1-frown.png)');
+		$('#reaction3 .likedislike').css('background-image', reactionObject['sam'][0] ? 'url(images/cs247-p1-smile.png)' : 'url(images/cs247-p1-frown.png)');
+		$('#reaction4 .likedislike').css('background-image', reactionObject['casey'][0] ? 'url(images/cs247-p1-smile.png)' : 'url(images/cs247-p1-frown.png)');
+		$('#reaction1 .opinion').text(reactionObject['sally'][1]);
+		$('#reaction2 .opinion').text(reactionObject['travis'][1]);
+		$('#reaction3 .opinion').text(reactionObject['sam'][1]);
+		$('#reaction4 .opinion').text(reactionObject['casey'][1]);
 	}
 
 	function comboFilenameGenerator() {
@@ -49,13 +65,21 @@ $(function() {
 		Button registrations
 	*/
 	$('.button.simple-next').click(function(e) {
-		advancePage();
+		turnPage();
 	});
 
 	$('.button.gated-next').click(function(e) {
 		if (selected) {
-			advancePage();
+			turnPage();
 		}
+	});
+
+	$('.button.simple-back').click(function(e) {
+		turnPage(false);
+	});
+
+	$('#released .button').click(function(e) {
+		populateReactions();
 	});
 
 	$('#result .goto' ).click(function(e) {

@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat:400,700');
-@import url('https://fonts.googleapis.com/css?family=Playfair+Display:400,700');
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,700');
 
 .container {
 	position: relative;
@@ -459,6 +459,202 @@ a:hover {
 #released .button {
 	left: 450px;
 	top: 341px;
+}
+
+.portrait {
+	position: absolute;
+	width: 232px;
+	height: 262px;
+	left: 149px;
+	top: 34px;
+
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center;
+}
+
+.name {
+	position: absolute;
+	width: 377px;
+	height: 174px;
+	left: 76px;
+	top: 296px;
+
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 30px;
+	line-height: 37px;
+	text-align: center;
+}
+
+.pronouns {
+	position: absolute;
+	width: 377px;
+	height: 174px;
+	left: 76px;
+	top: 331px;
+
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 15px;
+	line-height: 18px;
+	text-align: center;
+
+	color: #C4C4C4;
+}
+
+.bio {
+	position: absolute;
+	width: 377px;
+	height: 174px;
+	left: 76px;
+	top: 359px;
+
+	font-family: Playfair Display;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 15px;
+	line-height: 20px;
+	text-align: center;
+
+	color: #000000;
+}
+
+.likedislike {
+	position: absolute;
+	width: 65px;
+	height: 65px;
+	left: 771px;
+	top: 137px;
+
+	background-position: center;
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+
+.opinion {
+	position: absolute;
+	width: 572px;
+	height: 151px;
+	left: 518px;
+	top: 211px;
+
+	font-family: Playfair Display;
+	font-style: italic;
+	font-weight: normal;
+	font-size: 26px;
+	line-height: 40px;
+	text-align: center;
+
+	color: #000000;
+}
+
+#reaction1 .portrait {
+	background-image: url(../images/cs247-p1-sally.png);
+}
+
+#reaction1 .name {
+}
+
+#reaction1 .pronouns {
+}
+
+#reaction1 .bio {
+}
+
+#reaction1 .likedislike {
+}
+
+#reaction1 .opinion {
+}
+
+#reaction1 .button1 {
+	left: 604px;
+	top: 486px;
+}
+
+#reaction2 .portrait {
+	background-image: url(../images/cs247-p1-travis.png);
+}
+
+#reaction2 .name {
+}
+
+#reaction2 .pronouns {
+}
+
+#reaction2 .bio {
+}
+
+#reaction2 .likedislike {
+}
+
+#reaction2 .opinion {
+}
+
+#reaction2 .button1 {
+	left: 302px;
+	top: 486px;
+}
+
+#reaction2 .button2 {
+	left: 604px;
+	top: 486px;
+}
+
+#reaction3 .portrait {
+	background-image: url(../images/cs247-p1-sam.png);
+}
+
+#reaction3 .name {
+}
+
+#reaction3 .pronouns {
+}
+
+#reaction3 .bio {
+}
+
+#reaction3 .likedislike {
+}
+
+#reaction3 .opinion {
+}
+
+#reaction3 .button1 {
+	left: 302px;
+	top: 486px;
+}
+
+#reaction3 .button2 {
+	left: 604px;
+	top: 486px;
+}
+
+#reaction4 .portrait {
+	background-image: url(../images/cs247-p1-casey.png);
+}
+
+#reaction4 .name {
+}
+
+#reaction4 .pronouns {
+}
+
+#reaction4 .bio {
+}
+
+#reaction4 .likedislike {
+}
+
+#reaction4 .opinion {
+}
+
+#reaction4 .button1 {
+	left: 604px;
+	top: 486px;
 }
 
 #result .text1 {

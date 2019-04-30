@@ -51,22 +51,35 @@ $(function() {
 		}
 	});
 
-	$('#pick-color .option').click(function(e) {
+	$('.option').click(function(e) {
+		var screen = $(this).parent().parent().attr('id').trim();
 		var option = $(this).attr('class').split(' ')[1].trim();
 
 		switch (option) {
 			case 'option1':
-				selection1 = 'b';
+				if (screen == 'pick-color') {
+					selection1 = 'b';
+				} else if (screen == 'pick-celeb') {
+					selection2 = 'ts';
+				}
 				break;
 			case 'option2':
-				selection1 = 'p';
+				if (screen == 'pick-color') {
+					selection1 = 'p';
+				} else if (screen == 'pick-celeb') {
+					selection2 = 'tc';
+				}
 				break;
 			case 'option3':
-				selection1 = 'y';
+				if (screen == 'pick-color') {
+					selection1 = 'y';
+				} else if (screen == 'pick-celeb') {
+					selection2 = 'dj';
+				}
 				break;
 		}
 
-		$('#pick-color .preview').css('background', 'url(' + comboFilenameGenerator() + ')');
+		$('.preview').css('background-image', 'url(' + comboFilenameGenerator() + ')');
 		selected = true;
 	});
 });

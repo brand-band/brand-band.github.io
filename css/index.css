@@ -36,6 +36,17 @@ a:hover {
 	color: #FFFFFF;
 }
 
+.preview {
+	position: absolute;
+	width: 581px;
+	height: 375px;
+	left: 464px;
+	top: 82px;
+
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+
 #title .title {
 	position: absolute;
 	width: 761px;
@@ -181,19 +192,67 @@ a:hover {
 	background: #F1CD0D;
 }
 
-#pick-color .preview {
+#pick-color .button {
+	left: 795px;
+	top: 485px;
+}
+
+#pick-celeb .text1 {
 	position: absolute;
-	width: 581px;
-	height: 375px;
-	left: 464px;
+	width: 939px;
+	height: 41px;
+	left: 79px;
+	top: 24px;
+
+	font-family: Playfair Display;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 30px;
+	line-height: 40px;
+
+	color: #000000;
+}
+
+#pick-celeb .option1 {
+	position: absolute;
+	width: 81.19px;
+	height: 81.19px;
+	left: 125px;
 	top: 82px;
 
-	background: white;
+	background-image: url('../images/cs247-p1-taylor.png');
+	background-size: contain;
 	border: 1px solid #000000;
 	box-sizing: border-box;
 }
 
-#pick-color .button {
+#pick-celeb .option2 {
+	position: absolute;
+	width: 81.19px;
+	height: 81.19px;
+	left: 125px;
+	top: 206.49px;
+
+	background-image: url('../images/cs247-p1-terry.png');
+	background-size: contain;
+	border: 1px solid #000000;
+	box-sizing: border-box;
+}
+
+#pick-celeb .option3 {
+	position: absolute;
+	width: 81.19px;
+	height: 81.19px;
+	left: 125px;
+	top: 343.81px;
+
+	background-image: url('../images/cs247-p1-khaled.png');
+	background-size: contain;
+	border: 1px solid #000000;
+	box-sizing: border-box;
+}
+
+#pick-celeb .button {
 	left: 795px;
 	top: 485px;
 }

@@ -741,6 +741,109 @@ a:hover {
 	top: 396px;
 }
 
+#wrapup2 .text1 {
+	position: absolute;
+	width: 945px;
+	height: 55px;
+	left: 102px;
+	top: 97px;
+
+	font-family: Playfair Display;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 30px;
+	line-height: 40px;
+	text-align: center;
+
+	color: #000000;
+}
+
+#wrapup2 .image1 {
+	position: absolute;
+	width: 741px;
+	height: 270px;
+	left: 204px;
+	top: 152px;
+
+	background-image: url(../images/cs247-p1-model.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+
+#wrapup2 .text2 {
+	position: absolute;
+	width: 201px;
+	height: 24px;
+	left: 152px;
+	top: 323px;
+
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 20px;
+	line-height: 24px;
+	text-align: center;
+
+	color: #000000;
+}
+
+#wrapup2 .text3 {
+	position: absolute;
+	width: 180px;
+	height: 54px;
+	left: 163px;
+	top: 347px;
+
+	font-family: Playfair Display;
+	font-style: italic;
+	font-weight: normal;
+	font-size: 20px;
+	line-height: 27px;
+	text-align: center;
+
+	color: #000000;
+}
+
+#wrapup2 .text4 {
+	position: absolute;
+	width: 189px;
+	height: 24px;
+	left: 828px;
+	top: 323px;
+
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 20px;
+	line-height: 24px;
+	text-align: center;
+
+	color: #000000;
+}
+
+#wrapup2 .text5 {
+	position: absolute;
+	width: 232px;
+	height: 54px;
+	left: 807px;
+	top: 347px;
+
+	font-family: Playfair Display;
+	font-style: italic;
+	font-weight: normal;
+	font-size: 20px;
+	line-height: 27px;
+	text-align: center;
+
+	color: #000000;
+}
+
+#wrapup2 .button {
+	left: 450px;
+	top: 422px;
+}
+
 #wrapup3 .text1 {
 	position: absolute;
 	width: 945px;
